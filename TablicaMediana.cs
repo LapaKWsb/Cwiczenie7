@@ -15,7 +15,7 @@ namespace Zadanie
                 array[i] = random.Next(1, 101);
             }
 
-            Console.WriteLine("Mediana wynosi to: " + CalculateMedian(array));
+            Console.WriteLine("Mediana wynosi: " + CalculateMedian(array));
         }
 
         static double CalculateMedian(int[] array)
